@@ -4,7 +4,7 @@ export function Welcome() {
     <main className="flex flex-col items-center justify-center pt-16 pb-4 gap-16">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
         <header className="flex flex-col items-center gap-9">
-          <h1 className="text-4xl font-bold px-4">Marissa V. Fitzgerald, M.Ed.</h1>
+          <h1 className="text-4xl text-center font-bold px-4">Marissa V. Fitzgerald, M.Ed.</h1>
           <h2 className="px-2 text-center">Learning Specialist | Educational Coach | College Admissions Counselor | Student Wrangler</h2>
         </header>
         <div className="w-full space-y-6 px-8 flex items-center justify-center md:gap-16 max-sm:flex-col max-md:flex-row">
