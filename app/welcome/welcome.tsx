@@ -3,44 +3,121 @@ export function Welcome() {
   return (
     <main className="flex flex-col items-center justify-center pt-16 pb-4 gap-16">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
-        <header className="flex flex-col items-center gap-9">
-          <h1 className="text-4xl text-center font-bold px-4">Marissa V. Fitzgerald, M.Ed.</h1>
-          <h2 className="px-2 text-center">Learning Specialist | Educational Coach | College Admissions Counselor | Student Wrangler</h2>
+        <header className="flex flex-col items-center gap-6">
+          <h1 className="text-5xl text-center font-bold px-4">Marissa V. Fitzgerald, M.Ed.</h1>
+          <div className="text-center">
+            <p className="text-base text-gray-700 font-medium">
+              Brown University B.A. (Honors) | NYU M.Ed. | Columbia University Publishing Program | 20+ Years Experience
+            </p>
+            <p className="text-sm text-gray-600 mt-1">
+              Remote sessions available worldwide
+            </p>
+          </div>
         </header>
         <div className="w-full space-y-6 px-8 flex items-center justify-center md:gap-16 max-sm:flex-col max-md:flex-row">
-          <img className="md:w-1/4" src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" alt="Marissa V. Fitzgerald, M.Ed." />
-          <div className="text-center gap-4">
-            <h1 className="text-3xl font-bold py-4">About Marissa</h1>
-            <p>
-              Marissa V. Fitzgerald is an educational coach, learning specialist, college admissions advisor, and self-professed "student wrangler" with nearly 20 years of experience. A graduate of Brown University with honors in English and American Literatures with an M.A. in Education from NYU, Marissa brings a rare blend of intellectual rigor, strategic insight, profound passion, and deep empathy to her work with both students and families. Marissa lives with her family in New York City and loves to travel, eat, cook, hike, and spend time with her kids.
-            </p>
-            <br />
-            <p>
-              After receiving a B.A. in English and American Literature with honors from Brown University, she returned to NYC where she had danced as a professional ballerina with the New York City Ballet. Upon completion of the Columbia University Publishing curriculum, she began her career as a literary agent, book doctor, and ghostwriter. After two years of evening studies at NYU, she garnered her M.A. in Education.
-            </p>
-            <br />
-            <p>
-              Having never abandoned her love for cultivating the written word, Marissa has penned over 8 books under the aegis of various individuals. She continues to edit both fiction and nonfiction works as well. Her time is pretty evenly split between working with students and her professional writing and editing work.
-            </p>
-            <br />
+          <img className="md:w-1/4" src="/logo.png" alt="Marissa V. Fitzgerald, M.Ed." />
+          <div className="text-center gap-6">
+            <h1 className="text-3xl font-bold py-4 text-green-800">About Marissa</h1>
+            <div className="space-y-6 text-left">
+              <div>
+                <h3 className="text-xl font-semibold text-green-700 mb-2">Background & Credentials</h3>
+                <p className="text-base leading-relaxed">
+                  Marissa V. Fitzgerald is an educational coach, learning specialist, and college admissions advisor with nearly 20 years of experience. A graduate of Brown University with honors in English and American Literatures and an M.Ed. from NYU, she brings intellectual rigor, strategic insight, and deep empathy to her work with students and families.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-green-700 mb-2">Unique Experience</h3>
+                <p className="text-base leading-relaxed">
+                  After dancing professionally with the New York City Ballet, Marissa completed Columbia University's Publishing Program and worked as a literary agent and ghostwriter. This unique background in both performing arts and publishing gives her exceptional skills in communication and helping students express their ideas clearly.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold text-green-700 mb-2">Current Practice</h3>
+                <p className="text-base leading-relaxed">
+                  Marissa works remotely with clients throughout the United States and internationally, providing personalized educational support that adapts to each student's unique learning style and needs. Her practice combines academic coaching with executive functioning support to help students thrive both academically and personally.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <h2 className="font-bold text-2xl px-10 text-center">
-          Honestly, the longer she does both, the more similar they seem; she masters complex topics and distills them into easily communicable concepts.
-        </h2>
-        <hr className="w-3/4" />
+        <div className="w-full bg-gray-50 py-12 px-8">
+          <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Services Overview</h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-green-700 mb-3">Academic Coaching</h3>
+              <p className="text-gray-700">Comprehensive support across all subjects for students in grades K-12 and beyond, with personalized lesson plans tailored to each student's learning style.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-green-700 mb-3">Standardized Test Prep</h3>
+              <p className="text-gray-700">Expert preparation for SAT, ACT, SSAT, ISEE, and other standardized tests with proven strategies and individualized study plans.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-green-700 mb-3">College Admissions Counseling</h3>
+              <p className="text-gray-700">Complete guidance through the college application process, including essay writing, school selection, and application strategy.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <h3 className="text-xl font-semibold text-green-700 mb-3">Executive Functioning Support</h3>
+              <p className="text-gray-700">Essential skills development including organization, time management, study strategies, and self-advocacy for academic success.</p>
+            </div>
+          </div>
+          <div className="text-center mt-8">
+            <a
+              href="mailto:hellomarissa@gmail.com?subject=Free Consultation Request&body=Hi Marissa, I'm interested in scheduling a free consultation for my child's educational needs."
+              className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors"
+            >
+              Schedule a Free Consultation
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="flex flex-col gap-4 px-8">
-        <h1 className="text-3xl font-bold py-4">Experience & Approach</h1>
-        <p>
-          Since then, Marissa has worked as an educator for the past 17 years in NYC, California, and Utah. However, she has and continues to work remotely with clients throughout both the country and the world. Having lived and worked in New York City, California, and Utah, Marissa's student roster spans beyond the 50 states, including multiple international clients as well.
-        </p>
-        <p>
-          Her approach is highly individualized, relationship-driven, and rooted in helping students not just "get in" but truly thrive—academically, socially, and emotionally. Her lesson planning is bespoke to each student, none of that teaching by the script that the big standardized test prep franchises hire their tutors to do.
-        </p>
-        <p>
-          Experienced with a wide range of learners—from gifted and neurodiverse students to those managing ADHD, anxiety, or complex learning differences, her approach is highly individualized, relationship-driven, and oriented towards tangible results.
-        </p>
+      <div className="w-full py-12 px-8">
+        <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Specializations</h2>
+        <div className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-3">•</span>
+                  <span>Gifted and neurodiverse learners</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-3">•</span>
+                  <span>Students with ADHD, anxiety, and learning differences</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-3">•</span>
+                  <span>IEP support and advocacy</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-3">•</span>
+                  <span>ESL students seeking academic advancement</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-green-50 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-green-800 mb-4">Remote Sessions Available Worldwide</h3>
+              <p className="text-gray-700 leading-relaxed">
+                Marissa works with students across the United States and internationally, providing flexible scheduling and personalized support that adapts to different time zones and learning environments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full bg-gray-50 py-12 px-8">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Approach & Philosophy</h2>
+          <div className="text-center space-y-4">
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Marissa's approach is highly individualized, relationship-driven, and rooted in helping students not just "get in" but truly thrive—academically, socially, and emotionally. Her lesson planning is bespoke to each student, avoiding the one-size-fits-all approach of standardized test prep franchises.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              She masters complex topics and distills them into easily communicable concepts, helping students build confidence and achieve tangible results in their academic journey.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );

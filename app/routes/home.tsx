@@ -3,8 +3,8 @@ import { Welcome } from "../welcome/welcome";
 
 export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "Rassi Websiterson" },
-    { name: "description", content: "Welcome Rassi!" },
+    { title: "Marissa V. Fitzgerald, M.Ed. - Educational Coach & Learning Specialist" },
+    { name: "description", content: "Transform your child's academic journey with expert, individualized support. Personalized tutoring, test prep, and college counseling for students of all learning styles and abilities." },
   ];
 }
 

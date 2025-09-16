@@ -1,0 +1,101 @@
+---
+description: MVP for website improvement
+globs:
+alwaysApply: true
+---
+# Website Improvement Rules - MVP Phase
+
+## Priority 1: Content Structure & Hierarchy
+
+### Hero Section Enhancement
+- Replace current title with: "Transform Your Child's Academic Journey with Expert, Individualized Support"
+- Add subtitle: "Personalized tutoring, test prep, and college counseling for students of all learning styles and abilities"
+- Move key credentials (Brown University, NYU M.Ed.) to be visible immediately under the title
+
+### About Section Restructuring
+- Break the large "About Marissa" paragraph into 3 distinct sections:
+  1. **Background & Credentials** (2-3 sentences)
+  2. **Unique Experience** (professional ballet background, 20 years education)
+  3. **Current Practice** (remote work, international clients)
+- Limit each section to 2-3 sentences maximum
+
+### Add Essential Sections (in order)
+1. **Services Overview** - 4 clear categories with brief descriptions:
+   - Academic Coaching (all subjects, K-12+)
+   - Standardized Test Prep (list key tests: SAT, ACT, SSAT, etc.)
+   - College Admissions Counseling (essays, applications, school selection)
+   - Executive Functioning Support (organization, time management, study skills)
+
+2. **Specializations** - Bullet points:
+   - Gifted and neurodiverse learners
+   - Students with ADHD, anxiety, and learning differences
+   - IEP support and advocacy
+   - ESL students seeking academic advancement
+
+## Priority 2: Typography & Visual Hierarchy
+
+### Font & Spacing Rules
+- Main title: Larger, bold weight
+- Section headers: Medium size, consistent styling
+- Body text: Reduce current font size by 10-15%
+- Add 1.5x more white space between sections
+- Consistent line height: 1.6 for readability
+
+### Color & Design Consistency
+- Extend the green accent color to all section headers
+- Add subtle background color variation between sections (light gray/white alternating)
+- Ensure consistent margins and padding throughout
+
+## Priority 3: Professional Polish
+
+### Content Voice Standardization
+- Use third person consistently throughout (avoid switching to first person)
+- Remove any informal language or placeholders
+- Maintain professional but warm tone
+
+### Trust Signal Enhancement
+- Create a dedicated "Credentials" highlight box with:
+  - Brown University B.A. (English & American Literature, Honors)
+  - NYU M.Ed. (Education)
+  - Columbia University Publishing Program
+  - 20+ years experience
+- Add "Remote sessions available worldwide" as a key differentiator
+
+### Call-to-Action Addition
+- Add one primary CTA button: "Schedule a Free Consultation"
+- Place after the Services Overview section
+- Use the green accent color for the button
+
+## Implementation Notes
+
+### Structure Priority
+1. Fix hero section first
+2. Restructure About section
+3. Add Services Overview
+4. Apply typography improvements
+5. Add CTA button
+
+### Design Guidelines
+- Maintain current layout structure (don't redesign completely)
+- Keep the dog photo but ensure it doesn't overshadow professional content
+- Focus on readability and clear information hierarchy
+- Mobile-friendly considerations (readable on phones)
+
+### Content Guidelines
+- Every section should answer "What's in it for the parent/student?"
+- Use active voice where possible
+- Include specific details (test names, age ranges, etc.) for credibility
+- Avoid jargon - write for parents who may not be familiar with education terminology
+
+## Success Metrics for MVP
+- Clearer value proposition in first 10 seconds of viewing
+- Easy identification of services offered
+- Professional appearance that builds trust
+- Clear next step for interested parents
+
+## Future Iteration Ideas (Phase 2)
+- Add testimonials section
+- Include success stories/case studies  
+- Create FAQ section
+- Add process overview ("How We Work")
+- Include pricing information or consultation details
