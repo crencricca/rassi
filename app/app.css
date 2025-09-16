@@ -8,11 +8,27 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950 font-sans;
+  @apply bg-white font-sans;
+  background-color: white !important;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+/* Disable dark mode completely */
+html {
+  color-scheme: light only;
+}
+
+/* Override dark mode classes */
+.dark {
+  background-color: white !important;
+}
+
+.dark body {
+  background-color: white !important;
+}
+
+/* Ensure main content areas stay white */
+main {
+  background-color: white !important;
 }
 
 /* Newsreader font optimization */
