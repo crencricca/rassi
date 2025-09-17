@@ -3,10 +3,10 @@ export function Welcome() {
   return (
     <main className="flex flex-col items-center justify-center pt-16 pb-4 gap-16 sm:gap-8">
       <div className="flex-1 flex flex-col items-center md:gap-16 sm:gap-8 min-h-0">
-        <header className="flex flex-col items-center gap-6">
+        <header className="flex flex-col items-center gap-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-bold px-4 leading-tight">Marissa V. Fitzgerald, M.Ed.</h1>
           <div className="text-center">
-            <p className="text-base text-gray-700 font-medium px-8">
+            <p className="text-base text-gray-700 font-medium md:px-8 sm:px-4">
               Brown University B.A. (Honors) | NYU M.Ed. | Columbia University Publishing Program | 20+ Years Experience
             </p>
             <p className="text-sm text-gray-600 mt-1">
@@ -15,7 +15,7 @@ export function Welcome() {
           </div>
         </header>
         <div className="w-full space-y-6 px-8 lg:px-12 flex items-center justify-center md:gap-16 sm:gap-8 max-sm:flex-col max-md:flex-row">
-          <img className="w-56 md:w-56 lg:w-80" src="/logo.png" alt="Marissa V. Fitzgerald, M.Ed." />
+          <img className="w-56 md:w-56 lg:w-80 my-0" src="/logo.png" alt="Marissa V. Fitzgerald, M.Ed." />
           <div className="text-center gap-6">
             <h1 className="text-3xl font-bold py-4 text-green-800">About Marissa</h1>
             <div className="space-y-6 text-left">
